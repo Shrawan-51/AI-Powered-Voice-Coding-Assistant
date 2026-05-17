@@ -1,0 +1,1 @@
+Built an agentic voice-controlled coding assistant using LangGraph and Gemini 2.5 Flash that autonomously writes, reads, and executes code on the local machine via natural language voice commands.

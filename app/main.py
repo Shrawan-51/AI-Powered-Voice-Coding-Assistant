@@ -6,7 +6,10 @@ from gtts import gTTS
 from graph import create_chat_graph
 import pyttsx3
 MONGODB_URL = "mongodb://admin:admin@localhost:27017"
-config = {"configurable":{"thread_id":"15"}}
+config = {
+        "configurable":{"thread_id":"15"},
+          "recursion_limit":6
+           }
 
 
 def main():
